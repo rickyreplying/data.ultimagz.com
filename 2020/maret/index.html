@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="theme-color" content="#2a2a2a">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="https://images.emojiterra.com/twitter/512px/1f3b2.png" />
+  <link rel="stylesheet" href="style.css?version=2" />
+  <title>Maret 2020 | Data Ultimagz</title>
+</head>
+
+<!--
+  TODO
+  * Jumlah tayangan (pageviews) - LINE CHART ✔
+  * Jumlah pembaca (users) - LINE CHART ✔
+  * Jumlah bouncerate - LINE CHART ✔
+  * Traffic channel - PIE CHART ✔
+  * Sub-konten terbanyak - BAR CHART ✔
+  * Rata-rata mengujungi artikel (session/page) - TEXT ✔
+  * Footer ✔
+-->
+
+<body>
+  <div class="container">
+    <!--header-->
+    <div class="title">
+      <a href="https://data.ultimagz.com/">
+        <h3>
+          <i class="em em-game_die" aria-role="presentation" aria-label="GAME DIE"></i>
+          <span id="typed"></span>
+        </h3>
+      </a>
+    </div>
+    <div id="wrapper">
+      <img class="meme" src="https://pudding.cool/2017/07/comics/images/raven.gif" alt="raven_gif" />
+      <h1>
+        <!--content title-->
+        Rangkuman Data <br />
+        Ultimagz Maret 2020
+      </h1>
+      <!--author-->
+      <div class="author">
+        <p>
+          By
+          <b><a href="https://id.quora.com/profile/Jericho-Siahaya" target="_blank">Jericho Siahaya</a></b>
+        </p>
+      </div>
+      <!--button for first chart-->
+      <div class="wrapper-inner" id="wrapper-button">
+        <div class="wrapper-button">
+          <button class="btn active" id="btnPageViews" onclick="update('pageViews')">
+            Jumlah Tayangan
+          </button>
+          <button class="btn" id="btnUsers" onclick="update('users')">
+            Jumlah Pembaca
+          </button>
+          <button class="btn" id="btnBounceRate" onclick="update('BounceRate')">
+            Bounce Rate
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--charts-->
+
+  <!--linechart-->
+  <div class="wrapper-inner chart">
+    <div id="line-chart" class="chart-container"></div>
+    <div class="mobile-text m-text">
+      <h3 id="title" class="left-text" data-aos="fade"></h3>
+    </div>
+
+
+    <h3 class="dot">• • •</h3>
+
+    <!--piechart-->
+    <div class="m-modified">
+      <button class="btn active" style="margin-top: -50px;">Traffic Channel</button>
+    </div>
+    <div id="pie-chart" data-aos="fade-right"></div>
+    <div class="mobile-text">
+      <h3 class="left-text m-modified-2" data-aos="fade">
+        Pembaca Ultimagz lebih banyak mengakses lewat pencarian <em>Google</em>.
+      </h3>
+    </div>
+
+
+    <h3 class="dot">• • •</h3>
+
+    <!--barchart-->
+    <div>
+      <button class="btn-dua active">Sub-konten Terbanyak</button>
+    </div>
+    <div id="bar-chart"></div>
+    <div class="mobile-text">
+      <h3 class="left-text" data-aos="fade">
+        Sub-konten yang paling sering dikunjungi adalah <em>Review</em>.
+      </h3>
+    </div>
+
+    <h3 class="dot">• • •</h3>
+
+
+    <div class="sub-konten">
+      <div class="sub-konten-gambar"><img src="https://media3.giphy.com/media/Z9t4DZu9NYa7m/source.gif"
+          alt="reading_news_gif" data-aos="fade-up" data-aos-anchor-placement="center-bottom"">
+      </div>
+      <div class=" mobile-text">
+        <h3 class="left-text" data-aos="fade">
+          Pembaca Ultimagz rata-rata membaca <em> 2 artikel</em> dalam sekali akses situs web Ultimagz.
+        </h3>
+      </div>
+    </div>
+
+    <a href="assets/LaporanAnalitikBulananMaret2020.pdf" download>
+      <h5>Unduh PDF Laporan Analitik Bulan Maret!</h5>
+    </a>
+
+  </div>
+
+  <!--footer-->
+  <div class="footer">
+    <div class="title-footer">
+      <a href="https://data.ultimagz.com/">
+        <h3>
+          <i class="em em-game_die" aria-role="presentation" aria-label="GAME DIE"></i> data.ultimagz.com
+        </h3>
+      </a>
+    </div>
+    <div class="content-footer">
+      <p><a href="/pagenotfound/">Januari</a></p>
+      <p><a href="/pagenotfound/">Februari</a></p>
+      <p>|</p>
+      <p>&copy; 2020</p>
+    </div>
+  </div>
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>
