@@ -1,313 +1,223 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="theme-color" content="#2a2a2a">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="https://images.emojiterra.com/twitter/512px/1f3b2.png" />
-  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/hamburger.css">
-  <link rel="stylesheet" href="style.css?version=1">
-  <title>Rangkuman 2019 | Data Ultimagz</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+    <title>Hi, Welcome! | Data Ultimagz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.3/pure-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.3/grids-responsive.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://images.emojiterra.com/twitter/512px/1f3b2.png" />
 </head>
 
 <body>
-  <div class="container">
-    <!--Judul/Header-->
-    <div class="title">
-      <a href="https://data.ultimagz.com/">
-        <h3 class="mod-title"><i class="em em-game_die" aria-role="presentation" aria-label="GAME DIE"></i>
-          data.ultimagz.com</h3>
-      </a>
-      <nav>
-        <div class="hamburger hamburger--elastic" style="float:right;">
-          <div class="hamburger-box">
-            <div class="hamburger-inner"></div>
-          </div>
+
+    <div id="layout" class="pure-g">
+        <div class="sidebar pure-u-1 pure-u-md-1-4">
+            <div class="header">
+                <h1 class="brand-title">Data Ultimagz</h1>
+                <h2 class="brand-tagline">Kumpulan statistik bulanan situs web Ultimagz</h2>
+
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a class="pure-button" href="https://ultimagz.com">ULTIMAGZ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="pure-button" href="https://github.com/jerichosiahaya/data.ultimagz.com">GITHUB
+                                SOURCE</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-      </nav>
+
+        <div class="content pure-u-1 pure-u-md-3-4">
+            <div>
+                <!-- A wrapper for all the blog posts -->
+                <div class="posts">
+                    <h1 class="content-subhead">Pinned Post</h1>
+
+                    <!-- A single blog post -->
+                    <section class="post">
+                        <header class="post-header">
+                            <img width="48" height="48" alt="IT Ultimagz Avatar" class="post-avatar"
+                                src="https://raw.githubusercontent.com/jerichosiahaya/data.ultimagz.com/master/it_web_ultimagz.jpg">
+
+                            <h2 class="post-title"> <a href="https://data.ultimagz.com/2019" class="post-title-link"
+                                    target="_blank" target="_blank">Rangkuman Data 2019</a>
+                            </h2>
+
+                            <p class="post-meta">
+                                By <a href="#" class="post-author">IT Ultimagz</a> under <a
+                                    class="post-category post-category-design" href="#">Wrapped</a>
+                            </p>
+                        </header>
+
+                        <div class="post-description">
+                            <p>
+                                Pada awal Maret 2020, kami melakukan pengumpulan data lalu lintas (traffic) situs
+                                Ultimagz sepanjang tahun 2019.
+
+                                Kami juga melakukan explanatory analysis pada beberapa metrik/variabel yang menurut kami
+                                perlu dipertimbangkan sebagai aspek yang penting untuk mendorong kinerja konten pada
+                                situs web Ultimagz.
+                            </p>
+                        </div>
+                    </section>
+                </div>
+
+
+                <div class="posts">
+                    <h1 class="content-subhead">Recent Posts</h1>
+
+                    <!-- Michael Farrel / April 
+
+
+                    <section class="post">
+                        <header class="post-header">
+                            <img width="48" height="48" alt="Eric Ferraiuolo&#x27;s avatar" class="post-avatar"
+                                src="https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png">
+
+                            <h2 class="post-title"> <a href="google.com" class="post-title-link">Rangkuman Data Ultimagz
+                                    April 2020</a>
+                            </h2>
+
+                            <p class="post-meta">
+                                By <a class="post-author" href="#">Michael Farrel</a> under <a
+                                    class="post-category post-category-js" href="#">Monthly Report</a>
+                            </p>
+                        </header>
+
+                        <div class="post-description">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            </p>
+                        </div>
+                    </section>
+
+                    -->
+
+                    <!-- Jericho Siahaya / Maret -->
+
+                    <section class="post">
+                        <header class="post-header">
+                            <img width="48" height="48" alt="Jericho Siahaya's avatar" class="post-avatar"
+                                src="https://avatars3.githubusercontent.com/u/47173293?s=460&u=9a9c1c60ef0da7fdeefcb1351cd55c542182c675&v=4">
+
+                            <h2 class="post-title"> <a href="https://data.ultimagz.com/2020/maret" target="_blank"
+                                    class="post-title-link">Rangkuman Data
+                                    Maret 2020</a>
+                            </h2>
+
+                            <p class="post-meta">
+                                By <a class="post-author" href="#">Jericho Siahaya</a> under <a
+                                    class="post-category post-category-js" href="#">Monthly Report</a>
+                            </p>
+                        </header>
+
+                        <div class="post-description">
+                            <p>
+                                Total jumlah tayangan pada bulan Maret adalah sejumlah 61,183 tayangan.
+                                Pembaca Ultimagz lebih banyak mengakses lewat pencarian Google.
+                                Sub-konten yang paling sering dikunjungi adalah Review.
+                                Pembaca Ultimagz rata-rata membaca 2 artikel dalam sekali akses situs web Ultimagz.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- Ricky Ng / Februari -->
+
+                    <section class="post">
+                        <header class="post-header">
+                            <img width="48" height="48" alt="Ricky Ng's avatar" class="post-avatar"
+                                src="https://qph.fs.quoracdn.net/main-thumb-676545521-200-mqilttfkdorecnerowhervaonqmzrvnj.jpeg">
+
+                            <h2 class="post-title"> <a href="https://data.ultimagz.com/2020/februari" target="_blank"
+                                    class="post-title-link">Rangkuman Data
+                                    Februari 2020</a>
+                            </h2>
+
+                            <p class="post-meta">
+                                By <a class="post-author" href="#">Ricky Ng</a> under <a
+                                    class="post-category post-category-js" href="#">Monthly Report</a>
+                            </p>
+                        </header>
+
+                        <div class="post-description">
+                            <div class="post-images pure-g">
+                                <div class="pure-u-1 pure-u-md-1-2">
+                                    <img alt="Foto Artikel Februari" class="pure-img-responsive"
+                                        src="https://data.ultimagz.com/2020/februari/images/background1.png">
+
+                                    <div class="post-image-meta">
+                                        <h3>Artikel Februari</h3>
+                                    </div>
+                                </div>
+
+                                <div class="pure-u-1 pure-u-md-1-2">
+                                    <img alt="Foto SS Statistik Sub Konten" class="pure-img-responsive"
+                                        src="https://raw.githubusercontent.com/jerichosiahaya/data.ultimagz.com/master/assets/pictures/background_februari_ricky.jpg">
+
+                                    <div class="post-image-meta">
+                                        <h3>Statistik Sub Konten</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- 2019 -->
+
+                    <section class="post">
+                        <header class="post-header">
+                            <img width="48" height="48" alt="IT Ultimagz Avatar" class="post-avatar"
+                                src="https://raw.githubusercontent.com/jerichosiahaya/data.ultimagz.com/master/it_web_ultimagz.jpg">
+
+                            <h2 class="post-title"> <a href="https://data.ultimagz.com/2019" class="post-title-link"
+                                    target="_blank" target="_blank">Rangkuman Data 2019</a>
+                            </h2>
+
+                            <p class="post-meta">
+                                By <a href="#" class="post-author">IT Ultimagz</a> under <a
+                                    class="post-category post-category-design" href="#">Wrapped</a>
+                            </p>
+                        </header>
+
+                        <div class="post-description">
+                            <p>
+                                Pada awal Maret 2020, kami melakukan pengumpulan data lalu lintas (traffic) situs
+                                Ultimagz sepanjang tahun 2019.
+
+                                Kami juga melakukan explanatory analysis pada beberapa metrik/variabel yang menurut kami
+                                perlu dipertimbangkan sebagai aspek yang penting untuk mendorong kinerja konten pada
+                                situs web Ultimagz.
+                            </p>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="footer">
+                    <div class="pure-menu pure-menu-horizontal">
+                        <ul>
+                            <li class="pure-menu-item"><a href="" class="pure-menu-link">About</a>
+                            </li>
+                            <li class="pure-menu-item"><a href="" class="pure-menu-link">Email</a></li>
+                            <li class="pure-menu-item"><a href="" class="pure-menu-link">GitHub</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!--Navbar Hamburger-->
-    <div id="popUpNav" class="menu" onclick="closeNav()">
-      <a href="pagenotfound/" target="_blank">
-        <h2>Rangkuman Data Ultimagz Bulan Januari 2020 </i></h2>
-      </a>
-      <a href="pagenotfound/" target="_blank">
-        <h2>Rangkuman Data Ultimagz Bulan Februari 2020</h2>
-      </a>
-      <a href="2020/maret/" target="_blank">
-        <h2>Rangkuman Data Ultimagz Bulan Maret 2020</h2>
-      </a>
-      <div class="footer-nav">
-        <i class="em em-email" aria-role="presentation" aria-label="ENVELOPE"></i> <b><u>it@ultimagz.com</u></b></a>
-      </div>
-    </div>
-    <!--Isi konten-->
-    <div id="wrapper">
-      <!-- Pakai class="img-center" untuk align center gambar-->
-      <div class="caption">Maret 2020</div>
-      <h1>Rangkuman Data Ultimagz 2019</h1>
 
-      <!--INTRO-->
-      <p>Pada awal Maret 2020, kami melakukan pengumpulan data lalu lintas (<i>traffic</i>) situs Ultimagz
-        sepanjang tahun 2019. </p>
-      <p>Kami juga melakukan <i>explanatory analysis</i> pada beberapa metrik/variabel yang menurut kami
-        perlu dipertimbangkan sebagai aspek yang penting untuk mendorong kinerja konten pada situs web Ultimagz.</p>
-      <p>Berikut hasil rangkuman serta analisa data yang telah kami buat:</p>
-      <!--INTRO-->
-
-      <!--meme-->
-      <img class="meme" src="https://media.giphy.com/media/l4Jz3a8jO92crUlWM/giphy.gif" alt="salt-meme">
-      <!--meme-->
-
-      <p>Kami mengumpulkan jumlah artikel yang telah terbit di situs Ultimagz per bulannya di sepanjang tahun 2019.
-        Jumlah yang kami dapat adalah sebagai berikut:</p>
-
-      <!--JUMLAH ARTIKEL-->
-      <canvas id="bar-chart" width="800" height="600"></canvas>
-      <div class="item" data-aos="fade-left">
-        <h2>Total keseluruhan artikel berjumlah <u>623</u> artikel.</h2>
-      </div>
-      <h3>Jumlah artikel terbanyak ada pada bulan <u>Februari</u>,
-        sedangkan jumlah artikel paling sedikit ada pada bulan <u>Juni</u> dan <u>Desember</u>.</h3>
-      <!--JUMLAH ARTIKEL-->
-
-      <!--JUMLAH TAYANGAN-->
-      <p>Setelah itu, kami melakukan pengumpulan data keseluruhan tayangan artikel perbulannya di sepanjang tahun 2019.
-        Hasil yang kami dapat adalah
-        sebagai berikut:</p>
-      <canvas id="bar-chart-horizontal" width="800" height="800"></canvas>
-      <div class="item" data-aos="fade-left">
-        <h3>Jumlah tayangan artikel terbanyak ada pada bulan <u>Agustus</u>,
-          sedangkan jumlah tayangan artikel paling sedikit ada pada bulan <u>Januari</u>.</h3>
-      </div>
-      <h2>Total keseluruhan tayangan artikel berjumlah <u>672,645</u> tayangan. <i class="em em-clap"
-          aria-role="presentation" aria-label="CLAPPING HANDS SIGN"></i></h2>
-      <!--JUMLAH TAYANGAN-->
-
-      <!--SUB-KONTEN TERBANYAK BAR CHART VERTICAL {Darren}-->
-      <p>Sepanjang tahun 2019, diketahui bahwa sub-konten terbanyak per bulan yang dipublikasi beserta dengan jumlahnya
-        antara lain:</p>
-      <canvas id="sub-konten-bar-chart-vertical" width="800" height="800"></canvas>
-      <div class="item" data-aos="fade-left">
-        <h2>Sub-konten yang paling sering dipublikasi di web Ultimagz adalah sub-konten <u>Hiburan</u>, <u>Event</u>,
-          dan <u>Review</u>.</h2>
-      </div>
-      <!--SUB-KONTEN TERBANYAK BAR CHART VERTICAL {Darren}-->
-
-      <!--3 ARTIKEL TERBANYAK-->
-      <p>Selama 2019, kami menemukan rata-rata penayangan artikel perbulan adalah sejumlah <b><u>1843</u></b>, kami pun
-        menemukan adanya <b>3 artikel</b>
-        yang memiliki jumlah tayangan yang melebihi rata-rata dari artikel lainnya dalam sehari.</p>
-      <div class="item" data-aos="fade-left">
-        <h2>3 artikel dengan jumlah tayangan terbanyak dalam sehari. <i class="em em-tada" aria-role="presentation"
-            aria-label="PARTY POPPER"></i></h2>
-      </div>
-      <h2> 1). <a href="https://ultimagz.com/lifestyle/kalimat-yang-akrab-di-telinga-saat-imlek-apa-artinya/">Kalimat
-          Ucapan yang Akrab di Telinga Saat Imlek, Apa Artinya?</a> - 5 Februari 2019</h2>
-      <img class="artikel-terbanyak" src="https://ultimagz.com/wp-content/uploads/imlek-2016.jpg" alt="">
-      <p>Pada tanggal 5 Februari 2019, bertepatan dengan hari raya Imlek, artikel ini tembus <b>3556</b> tayangan dalam
-        sehari. </p>
-      <h2> 2). <a href="https://ultimagz.com/hiburan/film/sexy-killers-batu-bara-politik-dan-kepentingan-elit/">Sexy
-          Killers: Batu Bara, Politik, dan Kepentingan Elit</a> - 16 April 2019</h2>
-      <img class="artikel-terbanyak" src="https://ultimagz.com/wp-content/uploads/Sexy-Killers-678x381.jpg" alt="">
-      <p>Pada tanggal 16 April 2019, tepat dua hari setelah film dokumenter Sexy Killers dirilis di YouTube, artikel ini
-        tembus <b>4020</b> tayangan dalam sehari. </p>
-      <h2> 3). <a
-          href="https://ultimagz.com/berita-kampus/bem-umn-sebut-tidak-miliki-orientasi-khusus-terhadap-kontroversi-rkuhp/">BEM
-          UMN Sebut Tidak Miliki Orientasi Khusus terhadap Kontroversi RKUHP</a> - 18 September 2019</h2>
-      <img class="artikel-terbanyak" src="https://ultimagz.com/wp-content/uploads/thank-you-536x381.png" alt="">
-      <p>Pada tanggal 18 September 2019, bertepatan dengan berlangsungnya kontroversi mengenai RKUHP, artikel ini tembus
-        <b>5027</b> tayangan dalam sehari. </p>
-      <!--3 ARTIKEL TERBANYAK-->
-
-      <!--USER&NEWUSERS-->
-      <p>Setelah melakukan pengumpulan data terkait konten, selanjutnya kami melakukan pengumpulan data terkait jumlah
-        pembaca artikel Ultimagz.
-        Kami membagi jenis pembaca ke dalam dua tipe, yaitu <b>pembaca baru</b> dan <b>pembaca lama</b>. Hasil yang kami
-        dapat adalah sebagai berikut:</p>
-      <canvas id="bar-chart-grouped" width="800" height="800"></canvas>
-      <div class="item" data-aos="fade-right">
-        <h2>Pembaca Ultimagz lebih dominan kepada pembaca lama, yaitu pembaca yang sebelumnya sudah mengetahui tentang
-          situs Ultimagz. <i class="em em-newspaper" aria-role="presentation" aria-label="NEWSPAPER"></i></i>
-        </h2>
-      </div>
-      <!--USER&NEWUSERS-->
-
-      <!--TRAFFIC CHANNEL-->
-      <p>Lalu kami coba untuk menelusuri terkait kanal lalu lintas yang paling sering digunakan oleh pembaca untuk
-        mengakses situs Ultimagz.</p>
-      <div class="chart-container">
-        <canvas id="doughnut-chart" width="800" height="450" class="doughnut"></canvas>
-      </div>
-      <div class="item" data-aos="fade-right">
-        <h2>Pembaca Ultimagz lebih banyak mengakses/menemukan situs Ultimagz dari pencarian di Google.</h2>
-      </div>
-      <div class="item" data-aos="fade">
-        <img class="meme" src="https://media1.giphy.com/media/zjQrmdlR9ZCM/source.gif" alt="Well, I'm confused.">
-      </div>
-      <h3>Hal ini sebenarnya sedikit janggal, dikarenakan pembaca Ultimagz lebih dominan kepada pembaca lama yang
-        seharusnya lebih banyak
-        mengakses melalui tautan secara langsung. </h3>
-      <p>Tetapi tidak menutup kemungkinan juga, pembaca yang mencari/menemukan situs Ultimagz di Google
-        memang adalah pembaca lama.</p>
-      <!--TRAFFIC CHANNEL-->
-
-      <!--SOCAL MEDIA CHANNEL PIE CHART {Darren}-->
-      <p>Media - media sosial yang paling berkontribusi antara lain adalah:</p>
-      <canvas id="social-media-pie-chart" width="800" height="800"></canvas>
-      <div class="item" data-aos="fade-left">
-        <h2>Situs Ultimagz lebih sering muncul di platform media sosial Twitter, disusul oleh Instagram dan Facebook.
-        </h2>
-      </div>
-      <!--SOCAL MEDIA CHANNEL PIE CHART {Darren}-->
-
-      <!--TREN WAKTU/JAM-->
-      <p>Masih pada analisa pembaca, kami mengumpulkan data terkait perilaku pembaca (<i>behavior</i>) yang dimulai dari
-        waktu-waktu paling sering
-        dimana pembaca mengakses situs Ultimagz. Hasil yang kami dapat adalah sebagai berikut:</p>
-      <img class="trends" src="assets/pictures/trends.png" alt="tren_jam_ultimagz">
-      <div class="item" data-aos="fade-right">
-        <h2>Pembaca Ultimagz lebih banyak menghabiskan waktu untuk membaca artikel Ultimagz pada pukul 8 malam hingga
-          pukul 12 malam. <i class="em em-clock8" aria-role="presentation" aria-label="CLOCK FACE EIGHT OCLOCK"></i>
-        </h2>
-      </div>
-      <!--TREN WAKTU/JAM-->
-
-      <!--TREN HARI BAR CHART VERTICAL Darren-->
-      <p>Setiap bulannya, kami juga menganalisa hari dimana pembaca Ultimagz paling sering mengunjungi situs Ultimagz,
-        hasilnya antara lain adalah:</p>
-      <canvas id="tren-hari-bar-chart-vertical" width="800" height="800"></canvas>
-      <div class="item" data-aos="fade-left">
-        <h2>Pembaca Ultimagz paling sering mengunjungi Ultimagz pada hari <u>Selasa</u> dan <u>Sabtu</u>.</h2>
-      </div>
-      <!--TREN HARI BAR CHART VERTICAL Darren-->
-
-      <!--AVERAGE DURATION-->
-      <div class="item" data-aos="fade-right">
-        <h2>Selain itu, kami pun menganalisa rata-rata durasi pembaca dalam membaca artikel Ultimagz, dari data
-          yang berhasil dianalisa, kami mendapati bahwa rata-rata durasi pembaca dalam membaca satu artikel Ultimagz
-          adalah selama <u>50 detik</u>. <i class="em em-timer_clock" aria-role="presentation" aria-label=""></i></h2>
-      </div>
-      <!--AVERAGE DURATION-->
-
-      <!--GENDER BAR CHART HORIZONTAL Ricky-->
-      <p>Lalu, kami mencoba untuk menganalisa pembaca berdasarkan gendernya.</p>
-      <div class="chart-container">
-        <canvas id="gender-pie" width="800" height="450" class="doughnut"></canvas>
-      </div>
-      <div class="item item-mod" data-aos="fade-left">
-        <h2> Pembaca Ultimagz lebih didominasi oleh gender perempuan, sebanyak <u> 63% </u>. Sedangkan gender laki-laki
-          sebanyak <u> 37% </u>. <i class="em em-blond-haired-woman" aria-role="presentation" aria-label=""></i><i
-            class="em em-boy" aria-role="presentation" aria-label="BOY"></i>
-      </div>
-      <!--GENDER BAR CHART HORIZONTAL Ricky-->
-
-      <!--UMUR BAR CHART HORIZONTAL Ricky-->
-      <p>Selanjutnya, kami menganalisa pembaca berdasarkan umurnya.</p>
-      <canvas id="umur-bar-chart" width="800" height="800"></canvas>
-      <div class="item" data-aos="fade-right">
-        <h2> Pembaca Ultimagz lebih banyak didominasi oleh pembaca dengan rentang usia <u> 18 </u> hingga <u> 24 </u>
-          tahun. <i class="em em-sunglasses" aria-role="presentation" aria-label="SMILING FACE WITH SUNGLASSES"></i>
-      </div>
-      <!--UMUR BAR CHART HORIZONTAL Ricky-->
-
-      <!--KOTA  Ricky-->
-      <p>Kemudian, kami menganalisa pembaca berdasarkan lokasi mereka masing-masing.</p>
-      <canvas id="kota-bar-chart" width="1000" height="1000"></canvas>
-      <p> <i> (Data ini merupakan data 10 kota dengan pembaca terbanyak yang ada di Indonesia) </i> </p>
-      <div class="item" data-aos="fade-left">
-        <h2> Kota Jakarta berada paling atas. Sebanyak <u>121,926 </u> pembaca Ultimagz berlokasi Jakarta. Disusul
-          dengan
-          Kota Surabaya dengan <u> 37,731 </u> pembaca. </h2>
-      </div>
-      <!--KOTA  Ricky-->
-
-      <!--DEVICES  Ricky-->
-      <p>Lalu kami menganalisa pembaca berdasarkan gawai (device) yang mereka pakai.</p>
-      <div class="chart-container">
-        <canvas id="device-pie" width="650" height="500" class="doughnut"></canvas>
-      </div>
-      <div class="item" data-aos="fade-right">
-        <h2> Pembaca Ultimagz lebih banyak mengakses situs Ultimagz melalui ponsel <i class="em em-iphone"
-            aria-role="presentation" aria-label="MOBILE PHONE"></i>, sedangkan sisanya adalah melalui komputer <i
-            class="em em-desktop_computer" aria-role="presentation" aria-label=""></i> dan yang paling sedikit
-          menggunakan tablet.
-      </div>
-
-      <!--DEVICES  Ricky-->
-
-      <!--BROWSER  Ricky-->
-      <p>Kemudian, kami menganalisa pembaca berdasarkan jenis peramban yang mereka pakai.</p>
-      <canvas id="browser-bar-chart" width="1200" height="1200"></canvas>
-      <h3> (Data ini merupakan data 10 peramban teratas)</h3>
-      <div class="item" data-aos="fade-left">
-        <h2> Peramban yang paling banyak digunakan oleh pembaca Ultimagz adalah <u> Google Chrome </u>, kemudian
-          disusul dengan <u>Safari</u>.
-      </div>
-
-      <!--BROWSER  Ricky-->
-
-      <!--OS SYSTEM  Ricky-->
-      <p>Sesudah itu, kami menganalisa pembaca berdasarkan jenis sistem operasi yang mereka pakai.</p>
-      <canvas id="os-bar" width="1200" height="1200"></canvas>
-      <div class="item" data-aos="fade-right">
-        <h2> Pembaca Ultimagz paling banyak menggunakan gawai <u>Android</u>, kemudian <u>iOS</u> dan terakhir disusul
-          oleh <u>Windows</u>, <u>Mac</u>
-          dan <u>Linux</u> yang merupakan sistem operasi komputer.</h2>
-      </div>
-      <!--OS SYSTEM  Ricky-->
-
-      <!--BOUNCERATE-->
-      <p>Selain itu, kami juga menemukan sedikit kejanggalan pada data <i>bounce rate</i> situs Ultimagz selama periode
-        2019.
-        Kami menemukan kenaikan (pertanda buruk) pada jumlah persenan <i>bounce rate</i> mulai dari awal September
-        hingga Desember. <a href="https://www.dewaweb.com/blog/bounce-rate-definisi-cara-kerja-dan-fungsinya/"
-          target="_blank"><b>Apa
-            itu bounce rate? Klik di sini.</b></a></p>
-      <canvas id="line-chart" width="800" height="600"></canvas>
-      <div class="item" data-aos="fade">
-        <h2>Pada bulan September, <i>bounce rate</i> Ultimagz naik hingga 50% dari rata-rata 3% di bulan-bulan
-          sebelumnya.</h2>
-      </div>
-      <p>Kami melakukan analisa terhadap kejanggalan ini. Pertama, kami mencoba untuk membandingkan data <i>bounce
-          rate</i>
-        terhadap data tayangan artikel selama periode 2019.</p>
-      <canvas id="line-chart-bounce" width="800" height="600"></canvas>
-      <p>Dari grafik di atas, terlihat jumlah tayangan artikel mulai mengalami penurunan pada bulan September, tepat di
-        saat <i>bounce rate</i> naik.</p>
-      <p>Untuk membuat asumsi semakin signifikan, kami pun mencoba membandingkan data <i>bounce rate</i> dan tayangan
-        artikel terhadap data jumlah pembaca baru
-        selama periode 2019.</p>
-      <canvas id="line-chart-bounce-user" width="800" height="600"></canvas>
-      <div class="item">
-        <h2>Kenaikan persen <i>bounce rate</i> terjadi akibat adanya penurunan jumlah tayangan serta peningkatan
-          jumlah pembaca baru di bulan September hingga Desember 2019. <i class="em em-disappointed_relieved"
-            aria-role="presentation" aria-label="DISAPPOINTED BUT RELIEVED FACE"></i></h2>
-      </div>
-      <p>Semua analisa yang kami buat berdasarkan data faktual yang terdapat pada <i>Google Analytics</i> Ultimagz.
-        Semoga bermanfaat!</p>
-      <!--BOUNCERATE-->
-      <div class="footer">
-        <p><a href="https://github.com/jerichosiahaya/data.ultimagz.com" target="_blank">Github Documentation</a></p>
-        <p><a href="https://ultimagz.com/" target="_blank">Ultimagz</a></p>
-        <p>|</p>
-        <p>© 2020</p>
-      </div>
-      <!--tutup wrapper-->
-    </div>
-    <!--tutup container-->
-  </div>
-  <!--kandangnya script-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="script.min.js?version=2" charset="utf-8"></script>
 </body>
 
 </html>
